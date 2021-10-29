@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+html,body{
+    height:100%
+}
+
+.main{
+    min-height:100%;
+    position:relative;
+    padding-top:5em
+}
+
+* html .main{
+    height:100%
+}
+
+footer{
+    bottom:0;
+    left:0;
+    right:0;
+    position:relative
+}
+
+body{
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background-image:url(img/background_site_glmece.png);
+    background-repeat:repeat;
+    background-size:600px 600px;
+    background-attachment:local
+}
+
+.clear{
+    background:rgba(255,255,255,.8);
+    padding:2em 0;
+}
+
+.navbar{
+    text-transform:uppercase;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    background:linear-gradient( to bottom,#10930a 0%,#0c3503 100%);
+    box-shadow:0 6px 8px 2px #000
+}
+    
+.navbar-header{
+    display:flex;
+    height:90px;
+    padding-top: 12px;
+    justify-content: space-between;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+.item {
+	margin: 12px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.navbar-logo{
+    height:80px;
+    width:auto;
+    margin:-8px 1px
+}
+    
+.gradient-border{
+    height:.5em;
+    background-image:linear-gradient(to right,#f6ec98 0%,#97721a 10%,#f6ec98 35%,#97721a 65%,#f6ec98 90%,#97721a 100%);
+    box-shadow:0 6px 8px 2px #000;
+}
+
+.cargo-img {
+    max-width:100px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+}
+
+a {
+    color: #008000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c3503;
+}
+
+hr {
+    border: 2px solid #0c3503;
+    border-radius: 8px;
+    margin-top: 18px;
+}
